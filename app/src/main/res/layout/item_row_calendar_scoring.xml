@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_rect"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/ImageView_IconNotification"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ic_logo"/>
+    <TextView
+        android:id="@+id/txtPermissionPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giáo viên cố vấn"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ImageView_IconNotification"/>
+    <TextView
+        android:id="@+id/txtContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã mở đợt đánh giá điểm cho Giáo viên cố vấn"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ImageView_IconNotification"
+        android:layout_below="@+id/txtPermissionPosition"/>
+    <TextView
+        android:id="@+id/txtOpenDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29/12/2017"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/ImageView_IconNotification"
+        android:layout_below="@+id/txtContent"/>
+    <TextView
+        android:id="@+id/txtNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="đến"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txtOpenDate"
+        android:layout_below="@+id/txtContent"/>
+    <TextView
+        android:id="@+id/txtCloseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="29/12/2017"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txtNext"
+        android:layout_below="@+id/txtContent"/>
+</RelativeLayout>

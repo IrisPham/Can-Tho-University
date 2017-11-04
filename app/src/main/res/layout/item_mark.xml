@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".modules.main.activitys.adapters.item_mark">
+    <TextView
+        android:id="@+id/textview_contentMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mục I: Điều 4. Đánh giá về ý thức tham gia học tập"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"/>
+</LinearLayout>

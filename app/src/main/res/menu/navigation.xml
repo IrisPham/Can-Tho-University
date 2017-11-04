@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_AccountInfo"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_account_info" />
+
+    <item
+        android:id="@+id/navigation_Notification"
+        android:icon="@drawable/ic_notification_black_24dp"
+        android:title="@string/title_notification" />
+
+    <item
+        android:id="@+id/navigation_RateScore"
+        android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+        android:title="@string/title_rate_score" />
+
+</menu>
